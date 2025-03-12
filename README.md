@@ -15,6 +15,11 @@ git clone https://github.com/ethanbdrd/AlgorithmsBook.git
 ```
 
 ## Usage
+This repository consists of three main files:
+- **userChoice.py**: Contains functions for user input selection, such as choosing the number of random integers they want to generate.
+- **algos.py**: Implements various well-known algorithms.
+- **main.py**: Manages the execution of algorithms and provides a user interface.
+
 Simply navigate through the repository and explore the different algorithm implementations. Each algorithm will include:
 - A Python script with the implementation
 - Explanations and comments within the code
