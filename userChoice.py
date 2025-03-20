@@ -28,3 +28,13 @@ def randomInts(n,min,max,unique):
     for _ in range(n):
         tab.append(randint(min,max))
     return tab
+
+"""
+mainRandomInts :execute de fonction randomInts with inputs to user
+"""
+def mainRandomInts():
+    num = input("how many variables?")
+    x = input("x min?")
+    y = input("x max?")
+    bool = input("Different variables or not? (y/n)")
+    return randomInts(int(num),int(x),int(y),True if bool=="y" else False)
